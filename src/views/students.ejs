@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<%- include('part/header') %>
+<body class="container-fluid">
+<header>
+    <div class="container-md" style="margin-top: 11%;">
+
+    </div>
+</header>
+<%- include('part/head-menu') %>
+
+<div class="container-md" style="margin-top: 11%;">
+
+
+</div>
+<% if (user!==null) { %>
+<div class="text-center"><%- user.email %></div>
+<a href="/signout">Выйти</a>
+<% } %>
+
+<%- include('part/footer') %>
+
+</body>
+</html>

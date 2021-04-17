@@ -86,10 +86,10 @@ h3, .h3 {
   font-size: calc(1.28906rem + 0.46875vw); }
   @media (min-width: 1200px) {
     h3, .h3 {
-      font-size: 1.64062rem; } }
+      font-size: 1.64063rem; } }
 
 h4, .h4 {
-  font-size: calc(1.26562rem + 0.1875vw); }
+  font-size: calc(1.26563rem + 0.1875vw); }
   @media (min-width: 1200px) {
     h4, .h4 {
       font-size: 1.40625rem; } }
@@ -3589,7 +3589,7 @@ textarea.form-control-lg {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.70312rem;
+  font-size: 0.70313rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
 
@@ -5450,7 +5450,7 @@ textarea.form-control-lg {
   font-size: calc(1.28906rem + 0.46875vw) !important; }
 
 .fs-4 {
-  font-size: calc(1.26562rem + 0.1875vw) !important; }
+  font-size: calc(1.26563rem + 0.1875vw) !important; }
 
 .fs-5 {
   font-size: 1.17188rem !important; }
@@ -7375,7 +7375,7 @@ textarea.form-control-lg {
   .fs-2 {
     font-size: 1.875rem !important; }
   .fs-3 {
-    font-size: 1.64062rem !important; }
+    font-size: 1.64063rem !important; }
   .fs-4 {
     font-size: 1.40625rem !important; } }
 
