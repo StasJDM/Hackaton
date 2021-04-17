@@ -24,6 +24,14 @@ module.exports = function (passport) {
         failureFlash: true
     }));
 
+    router.get('/students', async function (req, res) {
+        res.render('students', {
+            title: 'Студентам',
+            user: getUser(req),
+            message: req.flash('message')
+        })
+    });
+
     router.get('/signup', async function (req, res) {
         res.render('registration', {
             title: 'Регистрация',
