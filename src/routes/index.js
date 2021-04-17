@@ -25,12 +25,27 @@ module.exports = function (passport) {
     }));
 
     router.get('/students', async function (req, res) {
-        res.render('students', {
-            title: 'Студентам',
-            user: getUser(req),
-            message: req.flash('message')
-        })
-    });
+               res.render('students', {
+                   title: 'Студентам',
+                   user: getUser(req),
+                   message: req.flash('message')
+               })
+           });
+    router.get('/work', async function (req, res) {
+            res.render('work', {
+                title: 'Работодателям',
+                user: getUser(req),
+                message: req.flash('message')
+            })
+        });
+
+    router.get('/univer', async function (req, res) {
+            res.render('univer', {
+                title: 'ВУЗам',
+                user: getUser(req),
+                message: req.flash('message')
+            })
+        });
 
     router.get('/signup', async function (req, res) {
         res.render('registration', {

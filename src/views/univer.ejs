@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<%- include('part/header') %>
+<body class="container-fluid">
+<header>
+    <div class="container-md" style="margin-top: 8%;">
+
+    </div>
+</header>
+<%- include('part/head-menu') %>
+
+<div class="container-md students" style="margin-bottom:10px;">
+    <h3 style="margin-left:45%; font-family: fangsong;">ВУЗы</h3>
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+</div>
+
+<% if (user!==null) { %>
+<div class="text-center"><%- user.email %></div>
+<a href="/signout">Выйти</a>
+<% } %>
+
+<%- include('part/footer') %>
+
+</body>
+</html>

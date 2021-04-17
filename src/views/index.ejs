@@ -9,26 +9,34 @@
 </header>
 <%- include('part/head-menu') %>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+<div class="container-md" style="font-family: fangsong;">
+    <h1>Стажировка. Опыт. Сегодня. </h1>
+    <h5 style="font-style: italic;">Найди свое место уже сейчас</h5>
+</div>
+
+<div class="container-md">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style="
+                              padding: 50px;">
+          <div class="card-body">
+            <h5 class="card-title">Самые востребованная специальности</h5>
+            <p class="card-text">Вы узнаете о самых популярных направлениях IT</p>
+            <a href="#" class="btn btn-primary">Узнать подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" style="
+                              padding: 40px;">
+          <div class="card-body">
+            <h5 class="card-title">Оставить заявку на стажировку</h5>
+            <p class="card-text">Заполните анкету для стажировки, отметьте навыки которыми владеете и выберите подходящую компанию для практики</p>
+            <a href="#" class="btn btn-primary">Заполнить анкету</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
 </div>
 
 <% if (user!==null) { %>
